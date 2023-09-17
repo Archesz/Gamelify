@@ -1,0 +1,43 @@
+@media (min-width: 320px){
+    .resume-container{
+        height: auto;
+        max-height: 440px;
+        overflow-y: auto;
+
+        .resume-name{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .resume-container{
+        height: 180px;
+        overflow-y: none;
+    }    
+
+    .resume-name{
+        font-size: 20px;
+    }
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--black);
+    color: var(--white);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    cursor: default;
+
+    .resume-name{
+        font-weight: bolder;
+    }
+
+    .resume-text{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

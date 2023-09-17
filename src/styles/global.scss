@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    border: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+}
+
+// Cores
+:root{
+    --background: #3A3A3A;
+    --black: #2E2E2E;
+    --white: #F7FFF7;
+    --gray: #B3B3B3;
+    // Colored
+    --red: #B20D30;
+}
+
+.red{
+    background-color: #B20D30;
+}
+
+// Adicionais
